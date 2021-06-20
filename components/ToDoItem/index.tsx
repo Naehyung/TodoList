@@ -35,6 +35,7 @@ const TodoItem = ({ todo, onSubmit }: TodoItemProps) => {
   const onKeyPress = ({ nativeEvent }) => {
     if (nativeEvent.key === "Backspace" && content === "") {
       //Delete Item
+      console.warn("Delete Item")
     }
   };
 
